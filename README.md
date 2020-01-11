@@ -1,5 +1,8 @@
 # Flexbox Cheatsheet
 
+> This cheatsheet is meant to be a quick at-hand reference for The Flexbox Layout (Flexible Box) module.
+ 
+ 
 **`justify-content`**: this CSS property aligns items horizontally and accepts the following values:
 * `flex-start`: Items align to the left side of the container, default value.
 * `flex-end`: Items align to the right side of the container.
@@ -22,7 +25,7 @@
     
 **`order`**:  we can apply the order property to individual items. By default, items have a value of 0, but we can use this property to also set it to a positive or negative integer value. 
 
-**`align-self`**: Another property you can apply to individual items is align-self. This property accepts the same values as align-items and its value for the specific item.
+**`align-self`**: Another property you can apply to individual items is `align-self`. This property accepts the same values as `align-items` and its value for the specific item. `stretch` is the value by default.
 
 **`flex-wrap`**: Spread the items using this property, which accepts the following values:
 * `nowrap`: Every item is fit to a single line, default value.
